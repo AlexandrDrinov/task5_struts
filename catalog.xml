@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="file:/C:/_dev/projects/epam2/StrutsTask/web/WEB-INF/reservation.xml" uri="src/conf/xml-resources/jaxb/Reservation/reservation.xml"/>
-    <system systemId="file:/C:/_dev/projects/epam2/StrutsTask/web/WEB-INF/reservation.xml1.xsd" uri="src/conf/xml-resources/jaxb/Reservation/reservation.xml1.xsd"/>
-    <system systemId="file:/C:/_dev/projects/epam2/StrutsTask/web/WEB-INF/reservation.xsd" uri="src/conf/xml-resources/jaxb/Reservation/reservation.xsd"/>
-</catalog>
