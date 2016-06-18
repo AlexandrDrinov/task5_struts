@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib version="2.1"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+    <tlib-version>1.0</tlib-version>
+    <short-name>ctg</short-name>
+    <uri>customtags</uri>
+    <tag>
+        <name>res-component</name>
+        <tag-class>by.epamlab.tags.ResComponentTag</tag-class>
+        <body-content>empty</body-content>
+			
+        <attribute>
+            <name>var</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>			
+    </tag>		
+    <tag>
+        <name>reservation</name>
+        <tag-class>by.epamlab.tags.ReservationTag</tag-class>
+        <body-content>empty</body-content>
+			
+        <attribute>
+            <name>var</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>			
+    </tag>		
+    <tag>
+        <name>fare-family</name>
+        <tag-class>by.epamlab.tags.FareFamilyTag</tag-class>
+        <body-content>empty</body-content>
+			
+        <attribute>
+            <name>var</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>			
+    </tag>
+    <tag>
+        <name>customer</name>
+        <tag-class>by.epamlab.tags.CustomerTag</tag-class>
+        <body-content>empty</body-content>
+			
+        <attribute>
+            <name>var</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>			
+    </tag>
+</taglib>
